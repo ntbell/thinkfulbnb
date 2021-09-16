@@ -1,5 +1,4 @@
 /* -------  General Styles ------- */
-
 body {
   font-family: "Lato", sans-serif;
 }
@@ -36,7 +35,6 @@ main img {
 }
 
 /* ---  Groups & Items --- */
-
 .group {
   display: flex;
   flex-direction: column;
@@ -54,7 +52,7 @@ main img {
 }
 
 .form-item {
-  width:fit-content;
+  width: fit-content;
 }
 
 .about-item {
@@ -82,7 +80,6 @@ main img {
 }
 
 /* -------  Navigation ------- */
-
 header {
   background-color: #ff385c;
   padding: 20px 20px 0 20px;
@@ -104,7 +101,6 @@ header nav ul {
 
 header nav ul li {
   list-style-type: none;
-  
 }
 
 header nav ul li a {
@@ -126,7 +122,7 @@ form {
 
 form label {
   margin-left: 5px;
-  font-weight: bold; 
+  font-weight: bold;
 }
 
 form select,
@@ -146,7 +142,6 @@ form button {
 }
 
 /* -------  Footer ------- */
-
 footer {
   background-color: #ff385c;
 }
@@ -159,7 +154,6 @@ footer p {
 
 /* -------  Media Query ------- */
 @media all and (min-width: 480px) {
-
   header {
     display: flex;
     justify-content: space-between;
@@ -179,7 +173,7 @@ footer p {
   .form-item {
     align-content: center;
   }
-  
+
   .group {
     flex-direction: row;
     flex-wrap: wrap;
@@ -201,7 +195,4 @@ footer p {
   form button {
     width: 10%;
   }
-
-  
-
 }
