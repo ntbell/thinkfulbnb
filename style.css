@@ -1,0 +1,207 @@
+/* -------  General Styles ------- */
+
+body {
+  font-family: "Lato", sans-serif;
+}
+
+h2 {
+  font-size: 26px;
+  font-weight: 400;
+  margin: 0 10px 10px 10px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 18px;
+  font-weight: 500;
+}
+
+p {
+  line-height: 1.5em;
+  margin: 0;
+}
+
+section {
+  padding: 20px;
+}
+
+section.alternate-background {
+  background-color: #00a699;
+  margin: 10px;
+  color: #fff;
+}
+
+main img {
+  width: 100%;
+}
+
+/* ---  Groups & Items --- */
+
+.group {
+  display: flex;
+  flex-direction: column;
+}
+
+.about-group {
+  display: flex;
+  flex-direction: column;
+}
+
+.form-group {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.form-item {
+  width:fit-content;
+}
+
+.about-item {
+  flex: 1;
+  margin: 10px;
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+}
+
+.item {
+  flex: 1;
+  margin: 10px;
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+}
+
+.item-double {
+  flex: 2;
+  margin: 10px;
+  width: 100%;
+  justify-content: center;
+  align-self: center;
+}
+
+/* -------  Navigation ------- */
+
+header {
+  background-color: #ff385c;
+  padding: 20px 20px 0 20px;
+  text-align: center;
+}
+
+.logo {
+  font-family: "Pangolin", cursive;
+  font-size: 72px;
+  color: #fff;
+}
+
+header nav ul {
+  display: flex;
+  justify-content: center;
+  padding-left: 0;
+  padding-bottom: 20px;
+}
+
+header nav ul li {
+  list-style-type: none;
+  
+}
+
+header nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  padding: 0 20px 0 0;
+}
+
+header nav ul li a:hover {
+  color: #bdbdbd;
+  text-decoration: none;
+}
+
+/* -------  Search Form ------- */
+form {
+  border: 2px solid #ff385c;
+  padding: 10px;
+}
+
+form label {
+  margin-left: 5px;
+  font-weight: bold; 
+}
+
+form select,
+form input {
+  margin-bottom: 20px;
+  margin-right: 5px;
+  width: 180px;
+}
+
+form button {
+  background-color: #ff385c;
+  border: none;
+  color: #fff;
+  font-size: 24px;
+  padding: 15px;
+  width: 100%;
+}
+
+/* -------  Footer ------- */
+
+footer {
+  background-color: #ff385c;
+}
+
+footer p {
+  color: #fff;
+  text-align: center;
+  padding: 20px;
+}
+
+/* -------  Media Query ------- */
+@media all and (min-width: 480px) {
+
+  header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 30px;
+  }
+
+  header nav {
+    margin-top: 17px;
+  }
+
+  .form-group {
+    flex-direction: column;
+    flex-wrap: nowrap;
+    width: 22.5%;
+  }
+
+  .form-item {
+    align-content: center;
+  }
+  
+  .group {
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+
+  .item {
+    width: 100%;
+    flex-basis: 34%;
+  }
+
+  .about-group {
+    flex-direction: row;
+  }
+
+  .about-item {
+    width: 100%;
+  }
+
+  form button {
+    width: 10%;
+  }
+
+  
+
+}
