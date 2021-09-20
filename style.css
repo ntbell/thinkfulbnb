@@ -83,13 +83,13 @@ header a {
 
 .logo {
   font-family: "Pangolin", cursive;
-  font-size: 72px;
+  font-size: 40px;
 }
 
 header nav ul {
   display: flex;
   justify-content: center;
-  padding-left: 0;
+  padding-right: 15px;
   padding-bottom: 20px;
 }
 
@@ -117,6 +117,7 @@ form {
 
 .form-item {
   display: flex;
+  align-content: space-between;
   justify-content: space-between;
 }
 
@@ -126,9 +127,10 @@ form label {
 }
 
 form select,
-form input {
+form input, form option {
   margin-bottom: 20px;
   margin-right: 5px;
+  width: 150px;
 }
 
 form button {
@@ -194,11 +196,21 @@ footer p {
   .form-item {
     flex: 1;
     flex-direction: column;
+    min-width: 100px;
+    align-content: center;
+    justify-content: center;
   }
+
+  form select, form input, form option {
+    min-height: 2rem;
+    width: auto;
+  } 
 
   .logo {
     display: flex;
     flex: 1;
+    padding-right: 0px;
     justify-content: left;
+    font-size: 72px;
   }
 }
