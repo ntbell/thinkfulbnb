@@ -72,7 +72,7 @@ main img {
 /* -------  Navigation ------- */
 header {
   background-color: #ff385c;
-  padding: 20px 20px 0 20px;
+  padding: 20px 20px 0px 20px;
   text-align: center;
 }
 
@@ -89,7 +89,7 @@ header a {
 header nav ul {
   display: flex;
   justify-content: center;
-  padding-right: 15px;
+  padding-right: 20px;
   padding-bottom: 20px;
 }
 
